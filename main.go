@@ -22,7 +22,7 @@ func main() {
 }
 
 func handler(w http.ResponseWriter, _ *http.Request) {
-	_, err := fmt.Fprintf(w, "Hello, World")
+	_, err := fmt.Fprintf(w, "Hello, Universe")
 	if err != nil {
 		log.Errorln("Sending Response Error",err)
 	}
